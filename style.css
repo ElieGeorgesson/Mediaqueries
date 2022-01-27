@@ -105,7 +105,7 @@ a:hover {
 /* Media Query for Mobile Devices */
 @media  (max-width: 480px) {
   .elie-georgeson-is-a {
-    color: white;
+    color: rgb(131, 66, 66);
     font-family: Rufina;
     font-size: 22px;
     font-weight: normal;
