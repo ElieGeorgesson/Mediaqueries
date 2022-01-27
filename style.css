@@ -1,0 +1,530 @@
+body {
+  background-color: #000000;
+}
+
+nav {
+
+  position: absolute;
+  width: 90px;
+  height: 21px;
+  left: 670px;
+  top: 77px;
+  min-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+
+}
+
+a {
+  color: white;
+  min-width: 60px;
+  text-decoration: none;
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  padding: 0px;
+}
+
+a:hover {
+  color: #e0b445;
+}
+
+.elie-georgesson {
+  position: absolute;
+  width: 200px;
+  height: 21px;
+  left: 61px;
+  top: 77px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+  margin: auto;
+}
+
+/* Media Query for Mobile Devices */
+@media  (max-width: 480px) {
+  div.elie-georgesson {
+    position: absolute;
+    width: 144px;
+    height: 20px;
+    left: 21px;
+    top: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+}
+
+/* Media Query for Tablets Ipads portrait mode 
+@media (min-width: 768px) and (max-width: 1024px){
+  div.elie-georgesson {
+    position: absolute;
+    width: 200px;
+    height: 21px;
+    left: 61px;
+    top: 77px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    flex: content;
+  }
+}*/
+
+
+.elie-georgeson-is-a {
+  color: white;
+  font-family: Rufina;
+  font-size: 30px;
+  font-weight: normal;
+  position: absolute;
+  width: 800px;
+  height: 196px;
+  left: 61px;
+  top: 300px;
+  line-height: 49px;
+  margin: auto;
+}
+
+.span0 {
+  color: #e0b445;
+}
+
+/* Media Query for Mobile Devices */
+@media  (max-width: 480px) {
+  .elie-georgeson-is-a {
+    color: white;
+    font-family: Rufina;
+    font-size: 22px;
+    font-weight: normal;
+    position: absolute;
+    width: 330px;
+    height: 196px;
+    left: 21px;
+    top: 176px;
+    line-height: 37px;
+    text-justify: auto;
+    word-spacing: 4px;
+  }
+  br{
+    display: none;
+  }
+}
+
+.myprofile {
+  position: absolute;
+  width: 381px;
+  height: 529px;
+  left: 750px;
+  top: 150px;
+  margin: auto;
+}
+
+/* Media Query for Mobile Devices */
+@media  (max-width: 480px) {
+  .myprofile {
+    height: 361px;
+    width: 247px;
+    left: 67px;
+    top: 391px;
+    border-radius: 0px;
+    position: absolute;
+    left: 17.87%;
+    right: 16.27%;
+    top: 450px;
+    bottom: 7.39%;
+    width: auto;
+  
+    
+  }
+  
+}
+
+.flex-row-social-media-logos {
+  align-items: center;
+  display: flex;
+  margin-left: 490px;
+  margin-top: 700px;
+  min-width: 200px;
+  justify-content: initial;
+
+
+
+}
+
+.linkedin {
+
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+
+}
+
+.github {
+
+  width: 34px;
+  height: 34px;
+  margin: 20px;
+
+}
+
+.twitter {
+
+  width: 30px;
+  height: 25px;
+  margin: 20px;
+}
+
+.eliegeorgesson2 {
+  position: absolute;
+  width: 200px;
+  height: 21px;
+  left: 61px;
+  top: 77px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+  margin: auto;
+}
+
+.link {
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#heartaerospaceuxuicasestudy {
+  color: white;
+  position: absolute;
+  width: 511px;
+  height: 51px;
+  left: 47px;
+  top: 250px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: justify;
+  text-indent: 17px;
+  margin: auto;
+
+}
+
+#casestudydesciption {
+  color: white;
+  position: absolute;
+  width: 511px;
+  height: 136px;
+  left: 61px;
+  top: 330px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  text-indent: 17px;
+  margin: auto;
+
+}
+
+#commingsoon {
+  color: white;
+  opacity: 0.5;
+  position: absolute;
+  width: 511px;
+  height: 51px;
+  left: 400px;
+  top: 500px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin: auto;
+
+}
+
+#mockup {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  left: 725px;
+  top: 180px;
+  margin: auto;
+}
+
+
+#Hey-Im-Elie {
+  color: white;
+  font-family: Rufina;
+  font-size: 40px;
+  font-weight: normal;
+  position: absolute;
+  width: 300px;
+  height: 196px;
+  left: 61px;
+  top: 250px;
+  line-height: 49px;
+  margin: auto;
+}
+
+#Imstudying {
+  color: rgb(168, 168, 168);
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: normal;
+  position: absolute;
+  width: 685px;
+  height: 196px;
+  left: 61px;
+  top: 350px;
+  line-height: 45px;
+  margin: auto;
+}
+
+.myprofile2 {
+  position: absolute;
+  width: 298px;
+  height: 398px;
+  left: 830px;
+  top: 190px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#UI {
+  color: rgb(241, 156, 20);
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: normal;
+  position: absolute;
+  width: 250px;
+  height: 196px;
+  left: 65px;
+  top: 700px;
+  line-height: 35px;
+  margin: auto;
+}
+
+#UIpro {
+  position: absolute;
+  width: 320px;
+  height: 234px;
+  left: 65px;
+  top: 750px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(168, 168, 168);
+  margin: auto;
+
+}
+
+#Prototyping {
+  color: rgb(241, 156, 20);
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: normal;
+  position: absolute;
+  width: 250px;
+  height: 196px;
+  left: 490px;
+  top: 700px;
+  line-height: 35px;
+  margin: auto;
+}
+
+#prototyping-products {
+  position: absolute;
+  width: 320px;
+  height: 234px;
+  left: 490px;
+  top: 750px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(168, 168, 168);
+  margin: auto;
+}
+
+#uxresearch {
+  color: rgb(241, 156, 20);
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: normal;
+  position: absolute;
+  width: 250px;
+  height: 196px;
+  left: 915px;
+  top: 700px;
+  line-height: 35px;
+  margin: auto;
+}
+
+#user-research {
+  position: absolute;
+  width: 320px;
+  height: 234px;
+  left: 915px;
+  top: 750px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(168, 168, 168);
+  margin: auto;
+}
+
+#inputname {
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  border-color: white;
+  border-radius: 4px;
+  position: absolute;
+  width: 850px;
+  height: 40px;
+  left: 200px;
+  top: 240px;
+  margin: auto;
+}
+
+#yourname {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  position: absolute;
+  width: 700px;
+  height: 40px;
+  left: 200px;
+  top: 200px;
+  margin: auto;
+  font-family: Roboto;
+
+}
+
+#inputemail {
+  background-color: black;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  border-color: white;
+  border-radius: 4px;
+  position: absolute;
+  width: 850px;
+  height: 40px;
+  left: 200px;
+  top: 380px;
+  margin: auto;
+}
+
+#youremail {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  position: absolute;
+  width: 700px;
+  height: 40px;
+  left: 200px;
+  top: 340px;
+  margin: auto;
+  font-family: Roboto;
+
+}
+
+#inputsubject {
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  border-color: white;
+  border-radius: 4px;
+  position: absolute;
+  width: 850px;
+  height: 40px;
+  left: 200px;
+  top: 520px;
+  margin: auto;
+}
+
+#subject {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  position: absolute;
+  width: 700px;
+  height: 40px;
+  left: 200px;
+  top: 480px;
+  margin: auto;
+  font-family: Roboto;
+
+}
+
+#inputmessage {
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  border-color: white;
+  border-radius: 4px;
+  position: absolute;
+  width: 850px;
+  height: 250px;
+  left: 200px;
+  top: 700px;
+
+
+}
+
+#yourmessage {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  position: absolute;
+  width: 700px;
+  height: 40px;
+  left: 200px;
+  top: 650px;
+  margin: auto;
+  font-family: Roboto;
+
+}
+
+#sendbutton {
+
+  position: relative;
+  left: 190px;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  margin: 1000px 2px 50px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 150px;
+  border-radius: 5px;
+  font-family: Roboto;
+
+}
