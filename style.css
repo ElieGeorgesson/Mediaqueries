@@ -213,6 +213,22 @@ a:hover {
   color: white;
   margin: auto;
 }
+/* Media Query for Mobile Devices */
+@media  (max-width: 480px) {
+  div.eliegeorgesson2 {
+    position: absolute;
+    width: 144px;
+    height: 20px;
+    left: 21px;
+    top: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+}
 
 .link {
   position: absolute;
@@ -239,6 +255,25 @@ a:hover {
   margin: auto;
 
 }
+/* Media Query for Mobile Devices for a*/
+@media  (max-width: 480px) {
+  #heartaerospaceuxuicasestudy {
+    
+    position: absolute;
+    left: 21px;
+    width: 313px;
+    height: 31px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 170.19%;
+    text-align: justify;
+    text-indent: 17px;
+    top: 500px;
+    color: #FFFFFF;
+  }
+}
 
 #casestudydesciption {
   color: white;
@@ -257,6 +292,25 @@ a:hover {
   margin: auto;
 
 }
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #casestudydesciption {
+    position: absolute;
+    width: 313px;
+    height: 149px;
+    left: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 170.19%;
+    text-indent: 11.1498px;
+    top: 550px;
+    color: #FFFFFF;
+  
+  }
+}
+  
 
 #commingsoon {
   color: white;
@@ -273,7 +327,24 @@ a:hover {
   margin: auto;
 
 }
-
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #commingsoon {
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+  position: absolute;
+  width: 125px;
+  height: 51px;
+  left: 220px;
+  top:750px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  margin: auto;
+  
+  }
+}
 #mockup {
   position: absolute;
   width: 500px;
@@ -282,6 +353,19 @@ a:hover {
   top: 180px;
   margin: auto;
 }
+
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #mockup {
+    position: absolute;
+    width: 306px;
+    height: 240px;
+    left: 30px;
+    top: 180px;
+
+  }
+}
+
 
 
 #Hey-Im-Elie {
