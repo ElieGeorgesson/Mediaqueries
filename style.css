@@ -430,17 +430,18 @@ a:hover {
     text-indent: 11.1498px;
     top: 550px;
     color: #FFFFFF;
+    text-align:justify;
   
   }
 }
 .myprofile2 {
   position: absolute;
-  width: 298px;
-  height: 398px;
+  width: 229.9px;
+  height: 306px;
   left: 830px;
   top: 190px;
   margin: auto;
-  border-radius: 10px;
+  
 }
 /* Media Query for Mobile Devices for a*/
 @media(max-width: 480px) {
@@ -448,11 +449,12 @@ a:hover {
     position: absolute;
     width: 200px;
     height: 240px;
-    left: 30px;
+    left: 85px;
     top: 180px;
 
   }
 }
+
 #UI {
   color: rgb(241, 156, 20);
   font-family: Roboto;
@@ -465,6 +467,22 @@ a:hover {
   top: 700px;
   line-height: 35px;
   margin: auto;
+}
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #UI {
+    color: rgb(241, 156, 20);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: normal;
+    position: absolute;
+    width: 250px;
+    height: 196px;
+    left: 21px;
+    top: 850px;
+    line-height: 35px;
+    margin: auto;
+  }
 }
 
 #UIpro {
@@ -482,7 +500,24 @@ a:hover {
   margin: auto;
 
 }
-
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #UIpro {
+    position: absolute;
+    width: 320px;
+    height: 234px;
+    left: 21px;
+    top: 900px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(168, 168, 168);
+    margin: auto;
+  
+  }
+}
 #Prototyping {
   color: rgb(241, 156, 20);
   font-family: Roboto;
@@ -495,6 +530,23 @@ a:hover {
   top: 700px;
   line-height: 35px;
   margin: auto;
+}
+
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #Prototyping {
+    color: rgb(241, 156, 20);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: normal;
+    position: absolute;
+    width: 250px;
+    height: 196px;
+    left: 21px;
+    top: 1100px;
+    line-height: 35px;
+    margin: auto;
+  }
 }
 
 #prototyping-products {
@@ -511,6 +563,23 @@ a:hover {
   color: rgb(168, 168, 168);
   margin: auto;
 }
+@media(max-width: 480px) {
+  #prototyping-products {
+    position: absolute;
+    width: 320px;
+    height: 234px;
+    left: 21px;
+    top: 1150px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(168, 168, 168);
+    margin: auto;
+  
+  }
+}
 
 #uxresearch {
   color: rgb(241, 156, 20);
@@ -524,6 +593,22 @@ a:hover {
   top: 700px;
   line-height: 35px;
   margin: auto;
+}
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #uxresearch {
+    color: rgb(241, 156, 20);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: normal;
+    position: absolute;
+    width: 250px;
+    height: 196px;
+    left: 21px;
+    top: 1350px;
+    line-height: 35px;
+    margin: auto;
+  }
 }
 
 #user-research {
@@ -540,6 +625,24 @@ a:hover {
   color: rgb(168, 168, 168);
   margin: auto;
 }
+@media(max-width: 480px) {
+  #user-research {
+    position: absolute;
+    width: 320px;
+    height: 234px;
+    left: 21px;
+    top: 1400px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(168, 168, 168);
+    margin: auto;
+  
+  }
+}
+
 
 #inputname {
   background-color: black;
@@ -840,4 +943,3 @@ input[type="checkbox"]{
    transition-delay: .6s;
   transform: translateX(-100px);
 }
-
