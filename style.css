@@ -381,6 +381,25 @@ a:hover {
   line-height: 49px;
   margin: auto;
 }
+/* Media Query for Mobile Devices for a*/
+@media  (max-width: 480px) {
+  #Hey-Im-Elie {
+    
+    position: absolute;
+    left: 21px;
+    width: 313px;
+    height: 31px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 170.19%;
+    text-align: justify;
+    text-indent: 17px;
+    top: 500px;
+    color: #FFFFFF;
+  }
+}
 
 #Imstudying {
   color: rgb(168, 168, 168);
@@ -396,6 +415,24 @@ a:hover {
   margin: auto;
 }
 
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #Imstudying {
+    position: absolute;
+    width: 313px;
+    height: 149px;
+    left: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 170.19%;
+    text-indent: 11.1498px;
+    top: 550px;
+    color: #FFFFFF;
+  
+  }
+}
 .myprofile2 {
   position: absolute;
   width: 298px;
@@ -405,7 +442,17 @@ a:hover {
   margin: auto;
   border-radius: 10px;
 }
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  .myprofile2 {
+    position: absolute;
+    width: 200px;
+    height: 240px;
+    left: 30px;
+    top: 180px;
 
+  }
+}
 #UI {
   color: rgb(241, 156, 20);
   font-family: Roboto;
@@ -670,7 +717,7 @@ a:hover {
   border-radius: 20%;
   font-size: 20px;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   
 }
 .menu-btn span,
@@ -738,7 +785,7 @@ a:hover {
   margin: 5px 30px;
   opacity: 0;
   transition: all 0.3s ease;
-  transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: transform .4s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .wrapper ul li a:after{
   position: absolute;
