@@ -269,7 +269,7 @@ a:hover {
     font-size: 18px;
     line-height: 170.19%;
     text-align: justify;
-    text-indent: 17px;
+    text-indent: 0px;
     top: 500px;
     color: #FFFFFF;
   }
@@ -304,9 +304,10 @@ a:hover {
     font-weight: 300;
     font-size: 18px;
     line-height: 170.19%;
-    text-indent: 11.1498px;
+    text-indent: 0px;
     top: 550px;
     color: #FFFFFF;
+    text-align: left;
   
   }
 }
@@ -395,7 +396,7 @@ a:hover {
     font-size: 25px;
     line-height: 170.19%;
     text-align: justify;
-    text-indent: 17px;
+    text-indent: 0px;
     top: 500px;
     color: #FFFFFF;
   }
@@ -419,7 +420,7 @@ a:hover {
 @media(max-width: 480px) {
   #Imstudying {
     position: absolute;
-    width: 313px;
+    width: 320px;
     height: 149px;
     left: 21px;
     font-family: Roboto;
@@ -427,17 +428,17 @@ a:hover {
     font-weight: 300;
     font-size: 18px;
     line-height: 170.19%;
-    text-indent: 11.1498px;
+    text-indent: 0px;
     top: 550px;
-    color: #FFFFFF;
-    text-align:justify;
+    color: #ffffff;
+    text-align:left;
   
   }
 }
 .myprofile2 {
   position: absolute;
   width: 298.96px;
-height: 398px;
+  height: 398px;
   left: 830px;
   top: 190px;
   margin: auto;
@@ -563,6 +564,7 @@ height: 398px;
   color: rgb(168, 168, 168);
   margin: auto;
 }
+/* Media Query for Mobile Devices for a*/
 @media(max-width: 480px) {
   #prototyping-products {
     position: absolute;
@@ -625,6 +627,7 @@ height: 398px;
   color: rgb(168, 168, 168);
   margin: auto;
 }
+/* Media Query for Mobile Devices for a*/
 @media(max-width: 480px) {
   #user-research {
     position: absolute;
@@ -644,11 +647,13 @@ height: 398px;
 }
 
 
+
+
 #inputname {
   background-color: black;
   font-size: 18px;
   color: white;
-  border-color: white;
+  border-color: rgb(255, 255, 255);
   border-radius: 4px;
   position: absolute;
   width: 850px;
@@ -658,8 +663,25 @@ height: 398px;
   margin: auto;
 }
 
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #inputname {
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    border-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    position: absolute;
+    width:300px;
+    height: 40px;
+    left: 33px;
+    top: 240px;
+    margin: auto;
+  }
+}
+
 #yourname {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   letter-spacing: 0.7px;
   position: absolute;
@@ -670,6 +692,23 @@ height: 398px;
   margin: auto;
   font-family: Roboto;
 
+}
+
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #yourname {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    position: absolute;
+    width: 175px;
+    height: 40px;
+    left: 33px;
+    top: 200px;
+    margin: auto;
+    font-family: Roboto;
+  
+  }
 }
 
 #inputemail {
@@ -686,18 +725,51 @@ height: 398px;
   margin: auto;
 }
 
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #inputemail  {
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    border-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    position: absolute;
+    width:300px;
+    height: 40px;
+    left: 33px;
+    top: 380px;
+    margin: auto;
+  }
+}
+
 #youremail {
   color: white;
   font-size: 18px;
   letter-spacing: 0.7px;
   position: absolute;
-  width: 700px;
+  width: 300px;
   height: 40px;
   left: 200px;
   top: 340px;
   margin: auto;
   font-family: Roboto;
 
+}
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #youremail {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  position: absolute;
+  width: 175px;
+  height: 40px;
+  left: 33px;
+  top: 340px;
+  margin: auto;
+  font-family: Roboto;
+  
+  }
 }
 
 #inputsubject {
@@ -713,6 +785,22 @@ height: 398px;
   top: 520px;
   margin: auto;
 }
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #inputsubject {
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    border-color: white;
+    border-radius: 4px;
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 33px;
+    top: 520px;
+    margin: auto;
+  }
+}
 
 #subject {
   color: white;
@@ -727,6 +815,22 @@ height: 398px;
   font-family: Roboto;
 
 }
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #subject {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  position: absolute;
+  width: 175px;
+  height: 40px;
+  left: 33px;
+  top: 480px;;
+  margin: auto;
+  font-family: Roboto;
+  
+  }
+}
 
 #inputmessage {
   background-color: black;
@@ -739,8 +843,22 @@ height: 398px;
   height: 250px;
   left: 200px;
   top: 700px;
+}
 
-
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #inputmessage {
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    border-color: white;
+    border-radius: 4px;
+    position: absolute;
+    width:300px;
+    height: 250px;
+    left: 33px;
+    top: 700px;
+  }
 }
 
 #yourmessage {
@@ -755,6 +873,23 @@ height: 398px;
   margin: auto;
   font-family: Roboto;
 
+}
+
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #yourmessage  {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  position: absolute;
+  width: 175px;
+  height: 40px;
+  left: 33px;
+  top: 650px;
+  margin: auto;
+  font-family: Roboto;
+  
+  }
 }
 
 #sendbutton {
@@ -774,7 +909,27 @@ height: 398px;
   font-family: Roboto;
 
 }
+/* Media Query for Mobile Devices for a*/
+@media(max-width: 480px) {
+  #sendbutton {
 
+    position: relative;
+    left: 190px;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 1000px 2px 50px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 150px;
+    border-radius: 5px;
+    font-family: Roboto;
+    left: 33px;
+  
+  }
+}
 /* Media Query for Mobile Devices for navigation bar for mobile view*/
 @media  (min-width: 480px) {
   div.wrapper {
