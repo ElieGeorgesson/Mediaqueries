@@ -915,11 +915,9 @@ a:hover {
 
     position: relative;
     left: 190px;
-    border: none;
     color: black;
     padding: 16px 32px;
     text-align: center;
-    display: inline-block;
     margin: 1000px 2px 50px;
     cursor: pointer;
     font-size: 18px;
