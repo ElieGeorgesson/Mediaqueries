@@ -1464,11 +1464,10 @@ body {
   left: 330px;
   height: 80px;
   width: 80px;
-  border: 2px solid #ffffff;
-  margin: 50px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  margin: 40px;
   cursor: pointer;
-  opacity: 0.8;
-  border-radius: 3px;
+  
   
 }
 
@@ -1519,11 +1518,12 @@ body {
     position: relative;
     top: 180px;
     left: 5px;
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     margin: 20px;
     cursor: pointer;
     border-bottom: 2px solid rgb(255, 255, 255);
+    
     
     
   }
