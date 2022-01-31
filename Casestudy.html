@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casestudy</title>
     <link rel="stylesheet" href="style.css">
-
+    <script src="script.js" defer></script>
 
 
 
@@ -20,14 +20,14 @@
     </div>
     <!-- <div>-taggen som en behållare för HTML element med span class och a href för att kunna gå tillbacka till startsidan när man trycker på ELIE GEORGESSON.-->
 
-        <div class="navigationbar">
-            <nav>
-        <a href="Casestudy.html" style="color:#e0b445;">Case Study</a>
-        <!-- Jag har använt style för att hjälpa användaren att veta på vilken sida finns dem. -->
-        <a href="Aboutme.html">About me</a>
-        <a href="Contactme.html">Contact me</a>
-    </nav>
-</div>
+    <div class="navigationbar">
+        <nav>
+            <a href="Casestudy.html" style="color:#e0b445;">Case Study</a>
+            <!-- Jag har använt style för att hjälpa användaren att veta på vilken sida finns dem. -->
+            <a href="Aboutme.html">About me</a>
+            <a href="Contactme.html">Contact me</a>
+        </nav>
+    </div>
 
     <div>
         <h1 id="heartaerospaceuxuicasestudy">"Heart aerospace" UX/UI Case Study.</h1>
@@ -42,27 +42,57 @@
         <!--  p element med id för att kunna  styla det som jag vill i css-->
     </div>
 
-    <div>
+    <!--<div>
         <img id="mockup" src="Image/Mockup.png" alt="Iphone mockup">
+    </div> -->
+
+    <div class="iphonemockup">
+        <div class="main-img">
+            <img src="img/Iphone1.png" class="pro-img" alt="iphone mockup" />
+        </div>
+        <div class="thumb-img">
+            <div class="box active" onclick="changeImage(this)">
+               <img src="img/Iphone1.png" alt="iphone mockup" />
+            </div>
+            <div class="box" onclick="changeImage(this)">
+               <img src="img/Iphone2.png" alt="iphone mockup" />
+            </div>
+            <div class="box" onclick="changeImage(this)">
+               <img src="img/Iphone3.png" alt="iphone mockup" />
+            </div>
+        </div>
     </div>
+   
+   
+   <script>
+           const thumbs=document.querySelector(".thumb-img").children;
+   
+               function changeImage(event){
+               document.querySelector(".pro-img").src=event.children[0].src
+               
+               for(let i=0; i<thumbs.length;i++){
+                 thumbs[i].classList.remove("active");
+               }
+               event.classList.add("active");
+               }
+   </script>   
 
-<!-- navigation bar för mobil -->
-      
-<input type="checkbox" id="active">
-<label for="active" class="menu-btn" ><span></span> </label>
-<label for="active" class="close"></label>
+        <!-- navigation bar för mobil -->
 
-<div class="wrapper">
+        <input type="checkbox" id="active">
+        <label for="active" class="menu-btn"><span></span> </label>
+        <label for="active" class="close"></label>
 
-<ul>
-    
-<li><a href="Casestudy.html">Case Study</a></li>
-<li><a href="Aboutme.html">About me</a></li>
-<li><a href="Contactme.html">Contact me</a></li>
+        <div class="wrapper">
 
-</ul>
-</div>
+            <ul>
 
+                <li><a href="Casestudy.html">Case Study</a></li>
+                <li><a href="Aboutme.html">About me</a></li>
+                <li><a href="Contactme.html">Contact me</a></li>
+
+            </ul>
+        </div>
 
 </body>
 
