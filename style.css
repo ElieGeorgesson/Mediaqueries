@@ -1435,12 +1435,12 @@ body {
   box-sizing: border-box;
 }
 
-.product {
+.iphonemockup {
   background-color: none;
   
 }
 
-.product .main-img img {
+.iphonemockup .main-img img {
   width: 279px;
   height: 368px;
   left: 375px;
@@ -1451,12 +1451,12 @@ body {
   
 }
 
-.product .thumb-img {
+.iphonemockup .thumb-img {
   text-align: center;
 
 }
 
-.product .thumb-img .box {
+.iphonemockup .thumb-img .box {
   
   display: inline-block;
   position: relative;
@@ -1472,12 +1472,12 @@ body {
   
 }
 
-.product .thumb-img .box.active {
+.iphonemockup .thumb-img .box.active {
   border-color: #e0b445;
 
 }
 
-.product .thumb-img .box img {
+.iphonemockup .thumb-img .box img {
   max-width: 100%;
   max-height: 100%;
 }
