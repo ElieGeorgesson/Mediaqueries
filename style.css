@@ -297,6 +297,7 @@ a:hover {
 
   }
 }
+
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
   div.eliegeorgesson2 {
@@ -315,6 +316,7 @@ a:hover {
 
   }
 }
+
 .link {
   position: absolute;
   width: 100%;
@@ -491,6 +493,7 @@ a:hover {
 
   }
 }
+
 /* iphone mockup  desktop*/
 
 body {
@@ -728,17 +731,17 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
   #Hey-Im-Elie {
 
-  color: white;
-  font-family: Rufina;
-  font-size: 40px;
-  font-weight: normal;
-  position: absolute;
-  width: 300px;
-  height: 196px;
-  left: 61px;
-  top: 220px;
-  line-height: 49px;
-  margin: auto;
+    color: white;
+    font-family: Rufina;
+    font-size: 40px;
+    font-weight: normal;
+    position: absolute;
+    width: 300px;
+    height: 196px;
+    left: 61px;
+    top: 220px;
+    line-height: 49px;
+    margin: auto;
   }
 }
 
@@ -825,7 +828,7 @@ body {
     left: 450px;
     top: 230px;
     margin: auto;
-  
+
   }
 }
 
@@ -927,7 +930,7 @@ body {
     line-height: 30px;
     color: rgb(168, 168, 168);
     margin: auto;
-  
+
   }
 }
 
@@ -1012,6 +1015,7 @@ body {
 
   }
 }
+
 /*Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
   #prototyping-products {
@@ -1111,6 +1115,7 @@ body {
 
   }
 }
+
 /*Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
   #user-research {
@@ -1162,6 +1167,7 @@ body {
     margin: auto;
   }
 }
+
 /*Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
   #inputname {
@@ -1209,6 +1215,7 @@ body {
 
   }
 }
+
 /*Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
   #yourname {
@@ -1222,7 +1229,7 @@ body {
     top: 200px;
     margin: auto;
     font-family: Roboto;
-  
+
   }
 }
 
@@ -1257,6 +1264,7 @@ body {
     margin: auto;
   }
 }
+
 /*Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
   #inputemail {
@@ -1318,7 +1326,7 @@ body {
     top: 340px;
     margin: auto;
     font-family: Roboto;
-  
+
   }
 }
 
@@ -1401,6 +1409,7 @@ body {
 
   }
 }
+
 /*Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
   #subject {
@@ -1414,7 +1423,7 @@ body {
     top: 480px;
     margin: auto;
     font-family: Roboto;
-  
+
   }
 }
 
@@ -1507,7 +1516,7 @@ body {
     top: 650px;
     margin: auto;
     font-family: Roboto;
-  
+
   }
 }
 
@@ -1549,6 +1558,7 @@ body {
 
   }
 }
+
 /*Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
   #sendbutton {
@@ -1566,7 +1576,7 @@ body {
     width: 150px;
     border-radius: 5px;
     font-family: Roboto;
-  
+
   }
 }
 
@@ -1685,7 +1695,7 @@ body {
   margin: 15px 0;
 }
 
- .wrapper ul li a { 
+.wrapper ul li a {
   text-decoration: none;
   font-size: 20px;
   width: 200px;
@@ -1833,6 +1843,44 @@ input[type="checkbox"] {
   transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
+
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .menu-btn {
+
+
+    position: absolute;
+    z-index: 2;
+    right: 50px;
+    top: 45px;
+    height: 50px;
+    width: 70px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+  }
+
+
+  .menu-btn span,
+  .menu-btn:before,
+  .menu-btn:after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 30%;
+    width: 40%;
+    border-bottom: 3px solid #fff;
+    transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+
+}
+
 .menu-btn:before {
   transform: translateY(-8px);
 }
@@ -1895,6 +1943,7 @@ input[type="checkbox"] {
   transition: all 0.3s ease;
   transition: transform .4s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
+
 /*Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
   .wrapper ul li a {
@@ -1908,7 +1957,7 @@ input[type="checkbox"] {
     position: absolute;
     left: 250px;
     line-height: 50px;
-    margin:50px 30px;
+    margin: 50px 30px;
     opacity: 0;
     transition: all 0.3s ease;
     transition: transform .4s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -1978,4 +2027,3 @@ input[type="checkbox"] {
   transition-delay: .6s;
   transform: translateX(-100px);
 }
-

@@ -9,6 +9,21 @@
   <link rel="stylesheet" href="style.css">
 
 </head>
+<!-- 1.4.3 (AA)	Använd tillräcklig kontrast mellan text och bakgrund
+
+      Bra kontrast mellan text och bakgrund är viktigt för läsbarheten, särskilt för personer med nedsatt synförmåga.
+      Det därför har jag valt att använda en svart backgrund och vit text, dessutom en orang färg för vissa ord.
+      Enligt https://coolors.co/contrast-checker/ffffff-000000 Kontrastförhållande för svart backgrund och vit text är
+      21 vilket innebär att det möter WCAG krav för kontrast med nivå AAA för normal fet och stor text. Medan de två
+      andra färger (#e0b445) och (#F19C14) som jag har använt för visa text har 10,78 och 9,51
+      kontrastförhållande med nivå AAA för normal fet och stor text
+    
+    1.1.1 (A)	Beskriv med text allt innehåll som inte är text
+    Användare som är beroende av till exempel skärmläsare och punktdisplay behöver beskrivningar av allt innehåll som
+    inte är text. Det beskrivs i textalternativ eller alt-texter som det också kallas. Det därför har jag använt allt
+    attribute för alla bilder och iconer för att hjälpa användaren som använder skärmläsre att kunna förstår
+    bildinnehål samt för att möta WCAG krav.
+-->
 
 <body>
 
@@ -52,10 +67,11 @@
 
 
   <header>
+
     <!-- hamburgare meny för mobil och tablet -->
     <input type="checkbox" id="active">
-    <label for="active" class="menu-btn"><span></span> </label>
-    <label for="active" class="close"></label>
+    <label for="active" class="menu-btn"> Menu Button<span></span> </label>
+    <label for="active" class="close"> Close Menu Button</label>
 
     <div class="wrapper">
 
@@ -67,6 +83,7 @@
 
       </ul>
     </div>
+
   </header>
 
 
