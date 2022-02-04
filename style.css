@@ -297,7 +297,24 @@ a:hover {
 
   }
 }
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  div.eliegeorgesson2 {
+    position: absolute;
+    width: 200px;
+    height: 21px;
+    left: 61px;
+    top: 65px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(255, 255, 255);
+    margin: auto;
 
+  }
+}
 .link {
   position: absolute;
   width: 100%;
@@ -344,6 +361,26 @@ a:hover {
   }
 }
 
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #heartaerospaceuxuicasestudy {
+
+    position: absolute;
+    left: 61px;
+    width: 400px;
+    height: 31px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 170.19%;
+    text-align: justify;
+    text-indent: 0px;
+    top: 720px;
+    color: #FFFFFF;
+  }
+}
+
 #casestudydesciption {
   color: white;
   position: absolute;
@@ -356,8 +393,6 @@ a:hover {
   font-weight: lighter;
   font-size: 20px;
   line-height: 40px;
-
-
   margin: auto;
 
 }
@@ -376,6 +411,26 @@ a:hover {
     line-height: 170.19%;
     text-indent: 0px;
     top: 720px;
+    color: #FFFFFF;
+    text-align: left;
+
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #casestudydesciption {
+    position: absolute;
+    width: 650px;
+    height: 149px;
+    left: 61px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 170.19%;
+    text-indent: 0px;
+    top: 780px;
     color: #FFFFFF;
     text-align: left;
 
@@ -417,6 +472,200 @@ a:hover {
 
   }
 }
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #commingsoon {
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+    position: absolute;
+    width: 125px;
+    height: 51px;
+    left: 570px;
+    top: 930px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    margin: auto;
+
+  }
+}
+/* iphone mockup  desktop*/
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.iphonemockup {
+  background-color: none;
+
+}
+
+.iphonemockup .main-img img {
+  width: 279px;
+  height: 368px;
+  left: 375px;
+  top: 160px;
+  position: relative;
+  margin: auto;
+  display: block;
+
+}
+
+.iphonemockup .clickable-img {
+  text-align: center;
+
+}
+
+.iphonemockup .clickable-img .box {
+
+  display: inline-block;
+  position: relative;
+  top: 150px;
+  left: 330px;
+  height: 80px;
+  width: 80px;
+  border-bottom: 3px solid rgb(255, 255, 255);
+  margin: 40px;
+  padding-bottom: 10px;
+  cursor: pointer;
+
+
+}
+
+.iphonemockup .clickable-img .box.active {
+  border-color: #e0b445;
+
+}
+
+.iphonemockup .clickable-img .box img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* iphone mockup Media Query for Mobile Devices */
+@media(max-width: 480px) {
+  body {
+    margin: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .iphonemockup {
+    background-color: none;
+
+  }
+
+  .iphonemockup .main-img img {
+    width: 279px;
+    height: 368px;
+    left: 20px;
+    top: 160px;
+    position: relative;
+    margin: auto;
+    display: block;
+
+  }
+
+  .iphonemockup .clickable-img {
+    text-align: center;
+
+  }
+
+  .iphonemockup .clickable-img .box {
+
+    display: inline-block;
+    position: relative;
+    top: 180px;
+    left: 5px;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+  }
+
+  .iphonemockup .clickable-img .box.active {
+    border-color: #e0b445;
+
+  }
+
+  .iphonemockup .clickable-img .box img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+
+/* Iphone mock Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    margin: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .iphonemockup {
+    background-color: none;
+
+  }
+
+  .iphonemockup .main-img img {
+    width: 279px;
+    height: 368px;
+    left: 20px;
+    top: 160px;
+    position: relative;
+    margin: auto;
+    display: block;
+
+  }
+
+  .iphonemockup .clickable-img {
+    text-align: center;
+
+  }
+
+  .iphonemockup .clickable-img .box {
+
+    display: inline-block;
+    position: relative;
+    top: 180px;
+    left: 5px;
+    height: 70px;
+    width: 70px;
+    margin: 30px;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+  }
+
+  .iphonemockup .clickable-img .box.active {
+    border-color: #e0b445;
+
+  }
+
+  .iphonemockup .clickable-img .box img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+
+
+
+
+
 
 /*#mockup {
   position: absolute;
@@ -475,6 +724,24 @@ a:hover {
   }
 }
 
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #Hey-Im-Elie {
+
+  color: white;
+  font-family: Rufina;
+  font-size: 40px;
+  font-weight: normal;
+  position: absolute;
+  width: 300px;
+  height: 196px;
+  left: 61px;
+  top: 220px;
+  line-height: 49px;
+  margin: auto;
+  }
+}
+
 #Imstudying {
   color: rgb(168, 168, 168);
   font-family: Roboto;
@@ -509,6 +776,24 @@ a:hover {
   }
 }
 
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #Imstudying {
+    color: rgb(168, 168, 168);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: normal;
+    position: absolute;
+    width: 330px;
+    height: 196px;
+    left: 61px;
+    top: 300px;
+    line-height: 35px;
+    margin: auto;
+    text-align: justify;
+  }
+}
+
 .myprofile2 {
   position: absolute;
   width: 298.96px;
@@ -528,6 +813,19 @@ a:hover {
     left: 70px;
     top: 150px;
 
+  }
+}
+
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .myprofile2 {
+    position: absolute;
+    width: 250px;
+    height: 340px;
+    left: 450px;
+    top: 230px;
+    margin: auto;
+  
   }
 }
 
@@ -557,6 +855,23 @@ a:hover {
     height: 196px;
     left: 21px;
     top: 850px;
+    line-height: 35px;
+    margin: auto;
+  }
+}
+
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #UI {
+    color: rgb(241, 156, 20);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: normal;
+    position: absolute;
+    width: 250px;
+    height: 196px;
+    left: 65px;
+    top: 700px;
     line-height: 35px;
     margin: auto;
   }
@@ -597,6 +912,25 @@ a:hover {
   }
 }
 
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #UIpro {
+    position: absolute;
+    width: 620px;
+    height: 234px;
+    left: 65px;
+    top: 750px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(168, 168, 168);
+    margin: auto;
+  
+  }
+}
+
 #Prototyping {
   color: rgb(241, 156, 20);
   font-family: Roboto;
@@ -623,6 +957,23 @@ a:hover {
     height: 196px;
     left: 21px;
     top: 1100px;
+    line-height: 35px;
+    margin: auto;
+  }
+}
+
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #Prototyping {
+    color: rgb(241, 156, 20);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: normal;
+    position: absolute;
+    width: 250px;
+    height: 196px;
+    left: 65px;
+    top: 900px;
     line-height: 35px;
     margin: auto;
   }
@@ -661,6 +1012,23 @@ a:hover {
 
   }
 }
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #prototyping-products {
+    position: absolute;
+    width: 620px;
+    height: 234px;
+    left: 65px;
+    top: 950px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(168, 168, 168);
+    margin: auto;
+  }
+}
 
 #uxresearch {
   color: rgb(241, 156, 20);
@@ -676,7 +1044,7 @@ a:hover {
   margin: auto;
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   #uxresearch {
     color: rgb(241, 156, 20);
@@ -688,6 +1056,23 @@ a:hover {
     height: 196px;
     left: 21px;
     top: 1350px;
+    line-height: 35px;
+    margin: auto;
+  }
+}
+
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #uxresearch {
+    color: rgb(241, 156, 20);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: normal;
+    position: absolute;
+    width: 250px;
+    height: 196px;
+    left: 65px;
+    top: 1080px;
     line-height: 35px;
     margin: auto;
   }
@@ -726,6 +1111,23 @@ a:hover {
 
   }
 }
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #user-research {
+    position: absolute;
+    width: 600px;
+    height: 234px;
+    left: 65px;
+    top: 1140px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(168, 168, 168);
+    margin: auto;
+  }
+}
 
 
 
@@ -756,6 +1158,22 @@ a:hover {
     width: 300px;
     height: 40px;
     left: 21px;
+    top: 240px;
+    margin: auto;
+  }
+}
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #inputname {
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    border-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    position: absolute;
+    width: 640px;
+    height: 40px;
+    left: 65px;
     top: 240px;
     margin: auto;
   }
@@ -791,6 +1209,23 @@ a:hover {
 
   }
 }
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #yourname {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 65px;
+    top: 200px;
+    margin: auto;
+    font-family: Roboto;
+  
+  }
+}
+
 
 #inputemail {
   background-color: black;
@@ -818,6 +1253,22 @@ a:hover {
     width: 300px;
     height: 40px;
     left: 21px;
+    top: 380px;
+    margin: auto;
+  }
+}
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #inputemail {
+    background-color: black;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border-color: white;
+    border-radius: 4px;
+    position: absolute;
+    width: 640px;
+    height: 40px;
+    left: 65px;
     top: 380px;
     margin: auto;
   }
@@ -854,6 +1305,23 @@ a:hover {
   }
 }
 
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #youremail {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 65px;
+    top: 340px;
+    margin: auto;
+    font-family: Roboto;
+  
+  }
+}
+
 #inputsubject {
   background-color: black;
   font-size: 18px;
@@ -880,6 +1348,23 @@ a:hover {
     width: 300px;
     height: 40px;
     left: 21px;
+    top: 520px;
+    margin: auto;
+  }
+}
+
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #inputsubject {
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    border-color: white;
+    border-radius: 4px;
+    position: absolute;
+    width: 640px;
+    height: 40px;
+    left: 65px;
     top: 520px;
     margin: auto;
   }
@@ -916,6 +1401,22 @@ a:hover {
 
   }
 }
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #subject {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 65px;
+    top: 480px;
+    margin: auto;
+    font-family: Roboto;
+  
+  }
+}
 
 #inputmessage {
   background-color: black;
@@ -942,6 +1443,22 @@ a:hover {
     width: 300px;
     height: 250px;
     left: 21px;
+    top: 700px;
+  }
+}
+
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #inputmessage {
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    border-color: white;
+    border-radius: 4px;
+    position: absolute;
+    width: 640px;
+    height: 250px;
+    left: 65px;
     top: 700px;
   }
 }
@@ -974,6 +1491,23 @@ a:hover {
     margin: auto;
     font-family: Roboto;
 
+  }
+}
+
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #yourmessage {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 65px;
+    top: 650px;
+    margin: auto;
+    font-family: Roboto;
+  
   }
 }
 
@@ -1015,7 +1549,26 @@ a:hover {
 
   }
 }
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #sendbutton {
 
+    position: relative;
+    left: 65px;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 1000px 2px 50px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 150px;
+    border-radius: 5px;
+    font-family: Roboto;
+  
+  }
+}
 
 /* Media Query for Tablets Ipads portrait mode (hamburgare menu) */
 @media (mn-width: 768px) and (max-width: 1024px) {
@@ -1132,7 +1685,7 @@ a:hover {
   margin: 15px 0;
 }
 
-.wrapper ul li a {
+ .wrapper ul li a { 
   text-decoration: none;
   font-size: 20px;
   width: 200px;
@@ -1342,6 +1895,26 @@ input[type="checkbox"] {
   transition: all 0.3s ease;
   transition: transform .4s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
+/*Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .wrapper ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    width: 200px;
+    font-weight: 500;
+    padding: 5px 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    position: absolute;
+    left: 250px;
+    line-height: 50px;
+    margin:50px 30px;
+    opacity: 0;
+    transition: all 0.3s ease;
+    transition: transform .4s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+}
+
 
 
 .wrapper ul li a:after {
@@ -1406,117 +1979,3 @@ input[type="checkbox"] {
   transform: translateX(-100px);
 }
 
-/* iphone mockup */
-
-body {
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.iphonemockup {
-  background-color: none;
-
-}
-
-.iphonemockup .main-img img {
-  width: 279px;
-  height: 368px;
-  left: 375px;
-  top: 160px;
-  position: relative;
-  margin: auto;
-  display: block;
-
-}
-
-.iphonemockup .clickable-img {
-  text-align: center;
-
-}
-
-.iphonemockup .clickable-img .box {
-
-  display: inline-block;
-  position: relative;
-  top: 150px;
-  left: 330px;
-  height: 80px;
-  width: 80px;
-  border-bottom: 3px solid rgb(255, 255, 255);
-  margin: 40px;
-  padding-bottom: 10px;
-  cursor: pointer;
-
-
-}
-
-.iphonemockup .clickable-img .box.active {
-  border-color: #e0b445;
-
-}
-
-.iphonemockup .clickable-img .box img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-/* Media Query for Mobile Devices */
-@media(max-width: 480px) {
-  body {
-    margin: 0;
-  }
-
-  * {
-    box-sizing: border-box;
-  }
-
-  .iphonemockup {
-    background-color: none;
-
-  }
-
-  .iphonemockup .main-img img {
-    width: 279px;
-    height: 368px;
-    left: 20px;
-    top: 160px;
-    position: relative;
-    margin: auto;
-    display: block;
-
-  }
-
-  .iphonemockup .clickable-img {
-    text-align: center;
-
-  }
-
-  .iphonemockup .clickable-img .box {
-
-    display: inline-block;
-    position: relative;
-    top: 180px;
-    left: 5px;
-    height: 70px;
-    width: 70px;
-    margin: 20px;
-    cursor: pointer;
-    border-bottom: 2px solid rgb(255, 255, 255);
-
-
-
-  }
-
-  .iphonemockup .clickable-img .box.active {
-    border-color: #e0b445;
-
-  }
-
-  .iphonemockup .clickable-img .box img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-}
