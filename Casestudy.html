@@ -14,69 +14,77 @@
 </head>
 
 <body>
+    <header>
+        <div class="eliegeorgesson2"> ELIE GEORGESSON.
+            <a href="index.html"><span class="link"></span></a>
+        </div>
+        <!-- <div>-taggen som en behållare för HTML element med span class och a href för att kunna gå tillbacka till startsidan när man trycker på ELIE GEORGESSON.-->
 
-    <div class="eliegeorgesson2"> ELIE GEORGESSON.
-        <a href="index.html"><span class="link"></span></a>
-    </div>
-    <!-- <div>-taggen som en behållare för HTML element med span class och a href för att kunna gå tillbacka till startsidan när man trycker på ELIE GEORGESSON.-->
+        <div class="navigationbar">
+            <nav>
+                <a href="Casestudy.html" style="color:#e0b445;">Case Study</a>
+                <!-- Jag har använt style för att hjälpa användaren att veta på vilken sida finns dem. -->
+                <a href="Aboutme.html">About me</a>
+                <a href="Contactme.html">Contact me</a>
+            </nav>
+        </div>
+    </header>
 
-    <div class="navigationbar">
-        <nav>
-            <a href="Casestudy.html" style="color:#e0b445;">Case Study</a>
-            <!-- Jag har använt style för att hjälpa användaren att veta på vilken sida finns dem. -->
-            <a href="Aboutme.html">About me</a>
-            <a href="Contactme.html">Contact me</a>
-        </nav>
-    </div>
 
-    <div>
-        <h1 id="heartaerospaceuxuicasestudy">"Heart aerospace" UX/UI Case Study.</h1>
-        <!-- h element med id för att kunna  styla det som jag vill i css-->
-        <h1 id="commingsoon"> - COMING SOON - </h1>
-    </div>
+    <section>
+        <div>
+            <h1 id="heartaerospaceuxuicasestudy">"Heart aerospace" UX/UI Case Study.</h1>
+            <!-- h element med id för att kunna  styla det som jag vill i css-->
+            <h1 id="commingsoon"> - COMING SOON - </h1>
+        </div>
 
-    <div>
-        <p id="casestudydesciption">The "Heart aerospace" app is a platform where travelers will have the opportunity to
-            book travel with electric aircraft. The future of electric aircraft is here, travelers will be able to
-            travel sustainably and quickly within Sweden.</p>
-        <!--  p element med id för att kunna  styla det som jag vill i css-->
-    </div>
-
+        <div>
+            <p id="casestudydesciption">The "Heart aerospace" app is a platform where travelers will have the
+                opportunity to
+                book travel with electric aircraft. The future of electric aircraft is here, travelers will be able to
+                travel sustainably and quickly within Sweden.</p>
+            <!--  p element med id för att kunna  styla det som jag vill i css-->
+        </div>
+    </section>
+    
     <!--<div>
         <img id="mockup" src="Image/Mockup.png" alt="Iphone mockup">
     </div> -->
 
-    <div class="iphonemockup">
-        <div class="main-img">
-            <img src="img/Iphone1.png" class="pro-img" alt="iphone mockup" />
+    <figure>
+        <div class="iphonemockup">
+            <div class="main-img">
+                <img src="img/Iphone1.png" class="pro-img" alt="iphone mockup" />
+            </div>
+            <div class="clickable-img">
+                <div class="box active" onclick="changeImage(this)">
+                    <img src="img/Iphone1.png" alt="iphone mockup 1 " />
+                </div>
+                <div class="box" onclick="changeImage(this)">
+                    <img src="img/Iphone2.png" alt="iphone mockup 2" />
+                </div>
+                <div class="box" onclick="changeImage(this)">
+                    <img src="img/Iphone3.png" alt="iphone mockup 3" />
+                </div>
+            </div>
         </div>
-        <div class="thumb-img">
-            <div class="box active" onclick="changeImage(this)">
-               <img src="img/Iphone1.png" alt="iphone mockup" />
-            </div>
-            <div class="box" onclick="changeImage(this)">
-               <img src="img/Iphone2.png" alt="iphone mockup" />
-            </div>
-            <div class="box" onclick="changeImage(this)">
-               <img src="img/Iphone3.png" alt="iphone mockup" />
-            </div>
-        </div>
-    </div>
-   
-   
-   <script>
-           const thumbs=document.querySelector(".thumb-img").children;
-   
-               function changeImage(event){
-               document.querySelector(".pro-img").src=event.children[0].src
-               
-               for(let i=0; i<thumbs.length;i++){
-                 thumbs[i].classList.remove("active");
-               }
-               event.classList.add("active");
-               }
-   </script>   
+    </figure>
 
+    <script>
+        const thumbs = document.querySelector(".clickable-img").children;
+
+        function changeImage(event) {
+            document.querySelector(".pro-img").src = event.children[0].src
+
+            for (let i = 0; i < thumbs.length; i++) {
+                thumbs[i].classList.remove("active");
+            }
+            event.classList.add("active");
+        }
+    </script>
+
+
+    <header>
         <!-- navigation bar för mobil -->
 
         <input type="checkbox" id="active">
@@ -93,7 +101,7 @@
 
             </ul>
         </div>
-
+    </header>
 </body>
 
 </html>

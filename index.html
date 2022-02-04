@@ -12,67 +12,63 @@
 
 <body>
 
-  <div class="elie-georgesson">ELIE GEORGESSON.</div>
+  <header>
+    <div class="elie-georgesson">ELIE GEORGESSON.</div>
 
-  <div class="navigationbar">
-    <nav>
-      <!-- nav element för att tillhandahålla navigeringslänkar till case sutdy, about me and contact me pages -->
+    <div class="navigationbar">
+      <nav>
+        <!-- nav element för att tillhandahålla navigeringslänkar till case sutdy, about me and contact me pages -->
+        <a href="Casestudy.html">Case Study</a>
+        <a href="Aboutme.html">About me</a>
+        <a href="Contactme.html">Contact me</a>
+      </nav>
+    </div>
+  </header>
 
-      <a href="Casestudy.html">Case Study</a>
-      <a href="Aboutme.html">About me</a>
-      <a href="Contactme.html">Contact me</a>
+  <section>
+    <div>
+      <h1 class="elie-georgeson-is-a"> <span class="span0">ELIE GEORGESSON</span><span>
+          is a UX designer student<br /> who has a lot of drive, will and creativity to <br />solve problems with a
+          human-centered <br> design process.</span></h1>
+      <!-- Jag har användt span med class attribute för att kunna  gruppera element för att få två olika färg i en h1 element-->
+      <figure>
+        <img class="myprofile" src="Image/Myprofile.jpg" alt="Elie Georgesson picture" />
+        <!-- src attribute för att ange var innehåll som ska laddas av webbsidan kan hittas -->
+        <!-- alt tag för att hjälpa människor med nedsatt syn eller andra som använder skärmläsare ska kunna förstå bilden-->
+      </figure>
+    </div>
+  </section>
 
-    </nav>
-  </div>
-
-
-
-  <div>
-
-    <h1 class="elie-georgeson-is-a"> <span class="span0">ELIE GEORGESSON</span><span>
-        is a UX designer student<br /> who has a lot of drive, will and creativity to <br />solve problems with a
-        human-centered <br> design process.</span></h1>
-    <!-- Jag har användt span med class attribute för att kunna  gruppera element för att få två olika färg i en h1 element-->
-    <img class="myprofile" src="Image/Myprofile.jpg" alt="Elie Georgesson picture" />
-    <!-- src attribute för att ange var innehåll som ska laddas av webbsidan kan hittas -->
-    <!-- alt tag för att hjälpa människor med nedsatt syn eller andra som använder skärmläsare ska kunna förstå bilden-->
-
-
-  </div>
-
-  <div class="flex-row-social-media-logos">
-    <!-- Flex row box för att kunna ställa in en horisontell riktning för ikoner. Dessutom för att kunna align och justify content -->
-    <img class="linkedin" src="Image/Linkedin .png" alt="linkein logo" />
-    <!-- En class attribute för varje bild för att kunna specifies många class namn för en HTML element-->
-    <img class="github" src="Image/GitHub.png" alt="github logo" />
-    <img class="twitter" src="Image/Twiitter.png" alt="twitter logo" />
-  </div>
-  </div>
-
-
-  <!-- hamburgare menu för mobil och tablet -->
-
-  <input type="checkbox" id="active">
-  <label for="active" class="menu-btn"><span></span> </label>
-  <label for="active" class="close"></label>
-
-  <div class="wrapper">
-
-    <ul>
-
-      <li><a href="Casestudy.html">Case Study</a></li>
-      <li><a href="Aboutme.html">About me</a></li>
-      <li><a href="Contactme.html">Contact me</a></li>
-
-    </ul>
-  </div>
+  <footer>
+    <div class="flex-row-social-media-logos">
+      <!-- Flex row box för att kunna ställa in en horisontell riktning för ikoner. Dessutom för att kunna align och justify content -->
+      <img class="linkedin" src="Image/Linkedin .png" alt="linkedin logo" />
+      <!-- En class attribute för varje bild för att kunna specifies många class namn för en HTML element-->
+      <img class="github" src="Image/GitHub.png" alt="github logo" />
+      <img class="twitter" src="Image/Twiitter.png" alt="twitter logo" />
+    </div>
+    </div>
+  </footer>
 
 
+  <header>
+    <!-- hamburgare meny för mobil och tablet -->
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><span></span> </label>
+    <label for="active" class="close"></label>
 
+    <div class="wrapper">
 
-  <div>
-    <hr class="Line">
-  </div>
+      <ul>
+
+        <li><a href="Casestudy.html">Case Study</a></li>
+        <li><a href="Aboutme.html">About me</a></li>
+        <li><a href="Contactme.html">Contact me</a></li>
+
+      </ul>
+    </div>
+  </header>
+
 
 </body>
 
