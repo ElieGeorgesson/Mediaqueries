@@ -54,7 +54,7 @@
     <figure>
         <div class="iphonemockup">
             <div class="main-img">
-                <img src="img/Iphone1.png" class="pro-img" alt="a wooden hand holding a iphone mockup" />
+                <img src="img/Iphone1.png" class="pro-img" alt="a wooden hand holding an iphone mockup" />
             </div>
             <div class="clickable-img">
                 <div class="box active" onclick="changeImage(this)">
@@ -71,16 +71,24 @@
     </figure>
 
     <script>
-        const iphonemockups = document.querySelector(".clickable-img").children;
+        const iphonemockups = document.querySelector(".clickable-img").children;  
 
-        function changeImage(event) {
+         function changeImage(event) { 
             document.querySelector(".pro-img").src = event.children[0].src
 
-            for (let i = 0; i < iphonemockups.length; i++) {
+            for (let i = 0; i < iphonemockups.length; i++) { 
                 iphonemockups[i].classList.remove("active");
             }
             event.classList.add("active");
         }
+        // document.querySelector för att returnerar det första elementet som matchar med CSS selektor vilket är ".clickable-img". //
+        // Function för att utföra a task och den task är att byta bilder. Medan event är för att skapa en interaktion med html och i den här fallet event är när användaren klicka på en bild för att se bilden i större storlek. //
+        // "For loops" för att upprepa en action ett antal gånger och "let" är en initial expression.// 
+        // "Let" för att deklarera och initiera variabel "i" och "i" står för index som är i sin tur en loop variabel.//
+        // "Condition" i den här fallet är iphonemockups. så så länge i < iphonemockups. "loop" kommer att utföra//
+        // i++ eller increment expression för att öka värdet av "i" med 1//
+        // iphonemockups[i].classList.remove("active"); är en statment så loop "let i = 0" kommer att utföra så länge "i < iphonemockups.length " condition är rätt. Det betyder att så länge är i < iphonemockups.length  statment iphonemockups[i].classList.remove("active") kommer att genömföra.
+        // classList.add för att lägga till CSS klasser 
     </script>
 
 

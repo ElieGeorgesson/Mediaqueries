@@ -343,7 +343,7 @@ a:hover {
 
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   #heartaerospaceuxuicasestudy {
 
@@ -399,7 +399,7 @@ a:hover {
 
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   #casestudydesciption {
     position: absolute;
@@ -456,7 +456,7 @@ a:hover {
 
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices*/
 @media(max-width: 480px) {
   #commingsoon {
     color: rgb(255, 255, 255);
@@ -664,35 +664,6 @@ body {
   }
 }
 
-
-
-
-
-
-
-/*#mockup {
-  position: absolute;
-  width: 500px;
-  height: 400px;
-  left: 725px;
-  top: 180px;
-  margin: auto;
-}
-
- Media Query for Mobile Devices for a
-@media(max-width: 480px) {
-  #mockup {
-    position: absolute;
-    width: 306px;
-    height: 240px;
-    left: 30px;
-    top: 180px;
-
-  }
-}*/
-
-
-
 #Hey-Im-Elie {
   color: white;
   font-family: Rufina;
@@ -707,7 +678,7 @@ body {
   margin: auto;
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   #Hey-Im-Elie {
 
@@ -759,7 +730,7 @@ body {
   margin: auto;
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   #Imstudying {
     position: absolute;
@@ -807,7 +778,7 @@ body {
 
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   .myprofile2 {
     position: absolute;
@@ -846,7 +817,7 @@ body {
   margin: auto;
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   #UI {
     color: rgb(241, 156, 20);
@@ -896,7 +867,7 @@ body {
 
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   #UIpro {
     position: absolute;
@@ -948,7 +919,7 @@ body {
   margin: auto;
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices*/
 @media(max-width: 480px) {
   #Prototyping {
     color: rgb(241, 156, 20);
@@ -997,7 +968,7 @@ body {
   margin: auto;
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   #prototyping-products {
     position: absolute;
@@ -1097,7 +1068,7 @@ body {
   margin: auto;
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   #user-research {
     position: absolute;
@@ -1151,7 +1122,7 @@ body {
   margin: auto;
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   #inputname {
     background-color: black;
@@ -1160,7 +1131,7 @@ body {
     border-color: rgb(255, 255, 255);
     border-radius: 4px;
     position: absolute;
-    width: 300px;
+    width: 330px;
     height: 40px;
     left: 21px;
     top: 240px;
@@ -1199,7 +1170,7 @@ body {
 
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   #yourname {
     color: rgb(255, 255, 255);
@@ -1248,7 +1219,7 @@ body {
   margin: auto;
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   #inputemail {
     background-color: black;
@@ -1257,7 +1228,7 @@ body {
     border-color: rgb(255, 255, 255);
     border-radius: 4px;
     position: absolute;
-    width: 300px;
+    width: 330px;
     height: 40px;
     left: 21px;
     top: 380px;
@@ -1296,7 +1267,7 @@ body {
 
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   #youremail {
     color: white;
@@ -1344,7 +1315,7 @@ body {
   margin: auto;
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   #inputsubject {
     background-color: black;
@@ -1353,7 +1324,7 @@ body {
     border-color: white;
     border-radius: 4px;
     position: absolute;
-    width: 300px;
+    width: 330px;
     height: 40px;
     left: 21px;
     top: 520px;
@@ -1392,7 +1363,7 @@ body {
 
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   #subject {
     color: white;
@@ -1440,7 +1411,7 @@ body {
   top: 700px;
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   #inputmessage {
     background-color: black;
@@ -1449,7 +1420,7 @@ body {
     border-color: white;
     border-radius: 4px;
     position: absolute;
-    width: 300px;
+    width: 330px;
     height: 250px;
     left: 21px;
     top: 700px;
@@ -1486,7 +1457,7 @@ body {
 
 }
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   #yourmessage {
     color: white;
@@ -1539,7 +1510,7 @@ body {
 }
 
 
-/* Media Query for Mobile Devices for a*/
+/* Media Query for Mobile Devices */
 @media(max-width: 480px) {
   #sendbutton {
 

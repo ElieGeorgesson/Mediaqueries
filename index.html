@@ -69,13 +69,18 @@
   <header>
 
     <!-- hamburgare meny för mobil och tablet -->
+    <!-- - input type="checkbox" för att ge användaren ett urval av möjliga alternativ och i den här fallet är att öppna och stänga hamburgare meny.
+         - laber med "for" attribute för att kunna koppla det till "id=active" attribute och för att kunna utlösas genom
+         att klicka på både den faktiska menyrutan och de tre rader som representar hamburgare meny -->
     <input type="checkbox" id="active">
-    <label for="active" class="menu-btn"> Menu Button<span></span> </label>
+    <label for="active" class="menu-btn"> Hamburger Menu Button<span></span> </label>
     <label for="active" class="close"> Close Menu Button</label>
 
     <div class="wrapper">
+      <!-- Wrapper eller en svart backgrund för att täcka ändra element när "navigation menu" är öppen -->
 
       <ul>
+        <!-- <ul> och <li>taggen med för att ange en oordnad lista, som grupperar en samling objekt utan numerisk ordning. I den här fallet är Case stydy, About me och contact me-->
 
         <li><a href="Casestudy.html">Case Study</a></li>
         <li><a href="Aboutme.html">About me</a></li>
